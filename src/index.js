@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { ToastContainer } from 'react-toastify';
 import App from './App';
+import HotelContext from './Contexts/HotelContext';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+ 
+    <HotelContext>
+        <ToastContainer position='top-center'></ToastContainer>
     <App />
-  </React.StrictMode>
+   </HotelContext>
+
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "634f8717e9469c8f82c47698",
+    "img": "https://www.collinsdictionary.com/images/full/singleroom_713511961_1000.jpg",
+    "bed": 1,
+    "title": "Single Room",
+    "person": 1,
+    "bill": 100
+  },
+  {
+    "id": "634f87179155d1f7eb340c26",
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/0e/86/bf/17/this-room-surprises-us.jpg",
+    "bed": 1,
+    "title": "Double Room",
+    "person": 2,
+    "bill": 200
+  },
+  {
+    "id": "634f871775f92219f148cca2",
+    "img": "https://ninongshotel.com.ph/wp-content/uploads/2018/11/our-rooms.jpg",
+    "bed": 2,
+    "title": "Family Room",
+    "person": 4,
+    "bill": 300
+  }
+]
